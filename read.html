@@ -1,7 +1,22 @@
+
 <html>
 
 <head>
 	<title> Book Reviews </title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.fa:hover {
+  color: #62136B;
+}
+</style>
+</head>
    
 <body style="background-color:#F8E7FA;">  
 			
@@ -31,31 +46,57 @@ tr:nth-child(odd) {
     <th>title</th>
     <th>author</th>
     <th>review</th>
+    <th>like/dislike</th>
   </tr>
   <tr>
     <td> ARROWS</td>
     <td>MELISSA GORZELANCZYK</td>
     <td>BEST BOOK I'VE READ THIS YEAR 2018. IT WAS ROMANCE AND JUST BEAUTIFUL. The main character, Karma, bothered me sometimes, but it helped how well it was tied into the story. I would honestly love this to be turned into a movie, but with everything in the story to be as accurate on screen.</td>
+    <td><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+	<script>
+function myFunction(x) {
+    x.classList.toggle("fa-thumbs-down");}
+	</script></td>
   </tr>
   <tr>
     <td>AN ABUNDANCE OF KATHERINES</td>
     <td>JOHN GREEN</td>
     <td>Wasn't as good as I has hoping it would be. I feel that the only reason I finshed reading the book was for the pure purpose that I had already started it and just wanted to end it.</td>
+    <td><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+	<script>
+function myFunction(x) {
+    x.classList.toggle("fa-thumbs-down");}
+	</script></td>
   </tr>
   <tr>
     <td>THE LAST STAR (THE 5TH WAVE #3)</td>
     <td>RICK YANCEY</td>
     <td>To be honest, I picked off where I had last read it which was over a year, so I was very lost and again reading it just to be done with it. It didn't amaze me as much as I wanted it to, and I didn't know how to feel about the ending since it was just open ended, which I personally don't like.</td>
+    <td><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+	<script>
+function myFunction(x) {
+    x.classList.toggle("fa-thumbs-down");}
+	</script></td>
   </tr>
   <tr>
     <td>SIMON VS THE HOMO SAPIENS AGENDA</td>
     <td>BECKY ALBERTALLI</td>
     <td>Such a cute same-sex story. I absolutely loved it and would definetely  recommend to read it. Still haven't seen Love,Simon but hopefully that will change soon. </td>
+    <td><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+	<script>
+function myFunction(x) {
+    x.classList.toggle("fa-thumbs-down");}
+	</script></td>
   </tr>
   <tr>
   	<td>THE MAZE RUNNER</td>
     <td>AUTHOR</td>
     <td>Still reading, and hope to finish before my birthday. I don't know if I will read the entire series, but I hope I get hooked.</td>
+    <td><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+	<script>
+function myFunction(x) {
+    x.classList.toggle("fa-thumbs-down");}
+	</script></td>
   </tr>
 </table>
 
